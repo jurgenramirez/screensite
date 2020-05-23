@@ -83,7 +83,6 @@ function getName(site){
 function main(){
     sites.forEach(function(url){
         createScreen(url,getName(url));
-        return;
     });
 }
 main();
